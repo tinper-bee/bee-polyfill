@@ -1,0 +1,30 @@
+{
+  "name": "bee-polyfill",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinper-bee/bee-polyfill.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tinper-bee/bee-polyfill/issues"
+  },
+  "homepage": "https://github.com/tinper-bee/bee-polyfill#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "console-polyfill": "^0.3.0",
+    "es5-shim": "^4.5.9"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
